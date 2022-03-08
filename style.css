@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    height:60px;
+}
+.menu  {
+    display: inline-flex;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color:  orange;
+}
+
+/*fim menu*/
+
+.conteudo1 {
+    background: #1C1C1C;
+    color: aliceblue;
+}
+
+.conteudo1 img {
+    height:600px;
+    width: 600px;
+}
+
+.yoga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    padding: 0 30px;
+}
+/*fim conteudo1*/
+
+.conteudo-2 img {
+    height:600px;
+    width: 600px;
+}
+
+.yoga2 {
+    display: flex ;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.texto2 {
+    padding: 0 30px;
+}
+/*fim conteudo2*/
+
+.conteudo-3 {
+    background: #1C1C1C;
+    color: aliceblue;
+}
+
+.conteudo-3 img {
+    height:600px;
+    width: 600px;
+}
+
+.yoga3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto3 {
+    padding: 0 30px;
+}
+
+/*inicio da tabela de horario*/
+
+.container-table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-table img {
+    height:500px;
+    width: 500px;
+}
+
+.table {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;   
+}
+
+.table td {
+    width: 30%;
+    padding: 10px;
+    
+    /*background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));*/
+}
+
+.gradient {
+    background: linear-gradient(to bottom, #D2B48C,white);
+    border-radius: 15px 50px 30px;
+    margin: 15px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #D2B48C,white);
+    padding: 20px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction:column;
+}
+
+.form h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.form, input, select {
+    width: 800px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+    
+    background-color: #D2B48C;
+    color: white;
+    transition: 1s;
+    
+}
+
+.contato img {
+    height:200px;
+    width: 200px;
+}

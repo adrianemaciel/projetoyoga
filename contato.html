@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="icon" href="imagens/driyoga.logo.png">
+    <title>Contato</title>
+</head>
+<body>
+    <div id="container">
+        <div class="logo"><img src="imagens/driyoga.logo.png" alt="logo"></div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="horario.html">Horário</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="contato">
+        <!--<img src="imagens/contato.png" alt="Aulas por Adriane Maciel">-->
+        <h1>Agende uma aula experimental</h1>
+
+        <form class="form">
+            <h2>Dados pessoais</h2>
+            Nome
+            <input type="text" name="nome"  placeholder="Digite seu nome"/>
+            E-mail
+            <input type="email" name="email" placeholder="Digite seu e-mail"/> 
+            Telefone 
+            <input type="tel" name="phone" placeholder="(00) 0000-0000"/>
+        
+            <h2>Agendamento</h2>
+            Modalidade
+            <select name="Modalidade">
+                <option value="Hatha Yoga">Hatha Yoga</option>
+                <option value="Mudras">Mudras</option>
+                <option value="Relaxamento">Relaxamento</option>
+            </select> 
+            Data
+            <input type="date"  name="date" placeholder="Selecione a data de preferência"/>
+            Horário
+            <select type="time" name="horario" placeholder="Selecione o horário">
+                <option value="7:00 - 08:30">Manhã 7:00h - 08:30h</option>
+                <option value="19:00 - 20:45">Noite 19:00h - 20:45h</option>
+            </select>
+            <input type="submit" value="Solicitar agendamento">
+        </form>
+       
+    </div>
+
+
+
+
+</body>
+</html>
