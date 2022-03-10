@@ -91,11 +91,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid red;
 }
 
 .container-table img {
     height:500px;
     width: 500px;
+    
+
 }
 
 .table {
@@ -104,20 +107,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;   
+    flex-direction: column; 
+    border: 1px solid red;  
 }
 
 .table td {
     width: 30%;
-    padding: 10px;
+    padding: 5px;
     
     /*background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));*/
 }
 
 .gradient {
     background: linear-gradient(to bottom, #D2B48C,white);
-    border-radius: 15px 50px 30px;
-    margin: 15px;
+   
+    width: 100%;
+    
 }
 
 .contato {
@@ -144,17 +149,11 @@
     padding: 12px 20px;
     margin: 10px 0;
     border-radius: 20px;
+    
 }
 
 input[type=submit]:hover {
-    
     background-color: #D2B48C;
     color: white;
     transition: 1s;
-    
-}
-
-.contato img {
-    height:200px;
-    width: 200px;
 }
