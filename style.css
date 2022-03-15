@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #container {
@@ -28,8 +31,8 @@
 }
 
 .conteudo-1 {
-    background: #1C1C1C;
-    color: aliceblue;
+    background: linear-gradient(to bottom, #D2B48C,white);
+    color: #1C1C1C;
 }
 
 .conteudo-1 img {
@@ -65,8 +68,8 @@
 }
 
 .conteudo-3 {
-    background: #1C1C1C;
-    color: aliceblue;
+    background: linear-gradient(to top, #D2B48C,white);
+    color:#1C1C1C;
 }
 
 .conteudo-3 img {
