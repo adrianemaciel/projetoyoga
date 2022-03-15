@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
     padding: 0;
@@ -49,7 +49,8 @@
 
 .texto1 {
     padding: 0 30px;
-}
+    text-align: justify;
+}   
 
 .conteudo-2 img {
     height:600px;
@@ -65,6 +66,7 @@
 
 .texto2 {
     padding: 0 30px;
+    text-align: justify;
 }
 
 .conteudo-3 {
@@ -86,6 +88,7 @@
 
 .texto3 {
     padding: 0 30px;
+    text-align: justify;
 }
 
 .container-table {
