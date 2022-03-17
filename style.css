@@ -55,7 +55,6 @@
 
 .texto1 h1, h1, h1 {
     text-align: center;
-    text-decoration-line:underline;
     margin: 5px;
 }
 
@@ -93,13 +92,13 @@
 
 .yoga3 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .texto3 {
     padding: 0 30px;
     text-align: justify;
+
 }
 
 .container-table {
