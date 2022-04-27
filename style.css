@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: #C49C67;
 }
 
 #container {
@@ -27,12 +28,10 @@
 
 .menu a {
     text-decoration: none;
-    color:  orange;
 }
 
 .conteudo-1 {
-    background: linear-gradient(to bottom, #D2B48C,white);
-    color: #1C1C1C;
+    background: linear-gradient(to bottom, #E1CCB0,white);
     padding: 50px;
 }
 
@@ -78,13 +77,19 @@
     text-align: justify;
 }
 
+.texto2-met {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 30px;
+}
+
 .texto2 ul li {
     list-style: none;
     margin: 5px;
 }
 
 .conteudo-3 {
-    background: linear-gradient(to top, #D2B48C,white);
+    background: linear-gradient(to top, #E1CCB0,white);
     color:#1C1C1C;
     padding: 50px;
 }
@@ -114,7 +119,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, #D2B48C,white);
+    background: linear-gradient(to bottom, #E1CCB0,white);
 }
 
 .container-table img {
@@ -123,12 +128,12 @@
 }
 
 .table {
-    height: 200px;
-    width: 100%;
+    height: 250px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content:space-around;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .table td {
@@ -140,7 +145,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, #D2B48C,white);
+    background: linear-gradient(to bottom, #E1CCB0,white);
     padding: 20px;
 }
 
@@ -162,7 +167,7 @@
 }
 
 input[type=submit]:hover {
-    background-color: #D2B48C;
+    background-color: #E1CCB0;
     color: white;
     transition: 1s;
 }
