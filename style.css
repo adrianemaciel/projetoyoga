@@ -7,6 +7,10 @@
     color: #C49C67;
 }
 
+body {
+    overflow: overlay;
+}
+
 #container {
     display:flex;
     justify-content: space-around;
